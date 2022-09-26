@@ -1,16 +1,16 @@
 Pod::Spec.new do |spec|
-  spec.name         = "Chronometer"
-  spec.version      = "0.0.3-alpha0"
-  spec.summary      = "Chronometer is just the library to use on SwiftUI"
+  spec.name         = "Chronograph"
+  spec.version      = "0.0.2"
+  spec.summary      = "Chronograph is just the library to use on SwiftUI"
   spec.description  = <<-DESC
-Chronometer is just the library to use on SwiftUI
+Chronograph is just the library to use on SwiftUI
                    DESC
 
   spec.homepage     = "https://github.com/kksys/#{spec.name}"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "kksys" => "kk.systems.develop@gmail.com" }
   spec.social_media_url   = "https://twitter.com/kksys"
-  spec.source       = { :http => "https://www.kk-systems.net/library/Chronometer/Chronometer-#{spec.version}.zip" }
+  spec.source       = { :http => "https://github.com/kksys/#{spec.name}/releases/download/#{spec.version}/#{spec.name}-#{spec.version}.zip" }
 
   spec.requires_arc          = true
 
