@@ -10,7 +10,7 @@ Chronograph is just the library to use on SwiftUI
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "kksys" => "kk.systems.develop@gmail.com" }
   spec.social_media_url   = "https://twitter.com/kksys"
-  spec.source       = { :http => "https://github.com/kksys/#{spec.name}/releases/download/#{spec.version}/#{spec.name}-#{spec.version}.zip" }
+  spec.source       = { :http => "https://www.kk-systems.net/library/Chronograph/Chronograph-#{spec.version}.zip" }
 
   spec.requires_arc          = true
 
